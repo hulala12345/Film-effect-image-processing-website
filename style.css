@@ -1,0 +1,48 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 20px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.drop-zone {
+    transition: background 0.2s;
+    border: 2px dashed #aaa;
+    padding: 20px;
+    width: 80%;
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+.file-label input[type="file"] {
+    display: none;
+}
+
+canvas {
+    border: 1px solid #ccc;
+    margin-bottom: 20px;
+    max-width: 100%;
+}
+
+section {
+    margin-bottom: 20px;
+}
+
+label {
+    display: block;
+    margin: 5px 0;
+}
+
+button {
+    padding: 10px 20px;
+    font-size: 1rem;
+}
+
+.note {
+    font-size: 0.8rem;
+    color: #666;
+}
+.drop-zone.dragover {
+    background: #eef;
+}
